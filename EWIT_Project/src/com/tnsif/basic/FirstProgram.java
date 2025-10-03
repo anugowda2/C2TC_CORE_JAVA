@@ -3,6 +3,8 @@ package com.tnsif.basic;
 public class FirstProgram {
 
 	public static void main(String[] args) {
-		System.out.print("Hello World from FirstProgram");
+		System.out.println("Hello World from FirstProgram");
+		Sample s=new Sample();
+		s.display();
 	}
 }
