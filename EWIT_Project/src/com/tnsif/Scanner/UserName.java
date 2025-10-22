@@ -15,9 +15,10 @@ public class UserName {
 		System.out.println("Enter your Gender by typing F or M ");
 		char gender=sc.next().charAt(0);
 		
-		System.out.println("Hello "+name+" calling you through "+phno);
-		System.out.println("Gender "+gender);
+		System.out.println("Hello "+name+ " Calling you through this number "+ phno);
+		System.out.println("Gender is "+gender);
 		
+		School.m1();
 		sc.close();
 	}
 }
