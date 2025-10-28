@@ -22,7 +22,9 @@ public class ArraysDemo {
 		for(int i=0; i<days.length; i++) {
 			System.out.println(days[i]);
 		}
+		sc.close();
 		
+		//Arrays Sorting
 		int arr1[]= {100,20,300,40,50};
 		Arrays.sort(arr1);
 		for(int i=0; i<arr1.length; i++) {
