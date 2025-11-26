@@ -8,9 +8,9 @@ public class GenericMethodTest {
 		Integer[] a= {10,20,30,40};
 		String[] s= {"Java","Python","C"};
 		Person[] pArray=new Person[] {
-			new Person("Gayatri",34,"Banagalore"),
-			new Person("Sudha",35,"Chennai"),
-			new Person("Keerthi",36,"Hyderabad")
+		    //new Person("Gayatri",34,"Banagalore"),
+			//new Person("Sudha",35,"Chennai"),
+		    //new Person("Keerthi",36,"Hyderabad")
 		};
 
 		GenericMethod g=new GenericMethod();
